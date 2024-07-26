@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url("../font/idroid.otf") format(".otf ");
+    font-weight: 600;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+:root{
+   /* Falta criar as váriaveis e atribuir uma cor a ela */
+    
+    
+    
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #84E1AD;
+    
+}
