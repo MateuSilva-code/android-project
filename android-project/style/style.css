@@ -1,21 +1,21 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: 'idroid';
+    src: url("../font/idroid.otf") format("opentype");
+   
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none;    
+    text-decoration: none; 
+    list-style: none;   
 }
 :root{
    /* Falta criar as váriaveis e atribuir uma cor a ela */
     --corFundo: #84E1AD
     
     
-    
-}
-@font-face {
-    font-family: 'idroid';
-    src: url("../font/idroid.otf") format(".otf ");
     
 }
 html{
@@ -28,18 +28,66 @@ body{
 }
 header{
     background-image: linear-gradient( to top, #1A5C38 , #379b62);
-    height: 120px;
-    
+    height: 140px;
+    color: #fff;   
 }
-header h1{
-    width: 31rem;
-    text-align: center;
+header div{
     margin: auto;
-    color: #fff;
-    font-family: 'idroid';
-    font-size: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
+header h1{ 
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 1px 3px 1px  black;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+header p{
+    width: 50vw;
+    margin: auto;
+    margin-top: 1.2rem;
+    font-size: 1.7rem;
+    letter-spacing: 2px; 
+}
+header nav{
+    margin-top: 16px;
+    
+    display: inline-block;
+    font-size: 1rem;
+   
+    
 
 }
-nav{
+header nav ul{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+   
+    
+}
+header nav ul li{
+    margin: 0px 10px;
+   
+}
+nav ul li a{
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 5px;
+}
+nav ul li a:hover{
+    color: #395545;
+    transition: 300ms;
+    background-color: #54c283;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    
+}
+
+/* Aqui termina o header */
+main{
+    max-width: 1080px;
 }
