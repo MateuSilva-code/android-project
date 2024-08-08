@@ -11,6 +11,7 @@
     text-decoration: none; 
     list-style: none;   
 }
+
 :root{
    /* Falta criar as váriaveis e atribuir uma cor a ela */
     --corFundo: #84E1AD
@@ -20,45 +21,46 @@
 }
 html{
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 body{
+    
     background-color: var(--corFundo);  
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-image: linear-gradient( to top, #1A5C38 , #379b62);
-    height: 140px;
+    background-image: linear-gradient( to bottom, #3CD983 , #124027);
+    height: 220px;
     color: #fff;   
 }
 header div{
+    height: 160px;
     margin: auto;
     display: flex;
     flex-direction: column;
-    text-align: center;    
+    text-align: center;   
 }
 header h1{ 
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-transform: uppercase;
-    text-shadow: 1px 3px 1px  black;
-    font-weight: 500;
-    margin-top: 1.5rem;
+    text-shadow: 2px 2px #00000080;
+    font-weight: 600;
+    margin-top: 30px;
+    letter-spacing: -2px;
+    
 }
 header p{
-    width: 50vw;
+    
+    width: 600px;
+    
     margin: auto;
-    margin-top: 1.2rem;
-    font-size: 1.7rem;
-    letter-spacing: 2px; 
+    
+    font-size: 1.9rem;
+    letter-spacing: 1px; 
 }
 header nav{
-    margin-top: 16px;
-    
+    margin-top: 35px;
     display: inline-block;
-    font-size: 1rem;
-   
-    
-
 }
 header nav ul{
     display: flex;
@@ -71,23 +73,50 @@ header nav ul{
 }
 header nav ul li{
     margin: 0px 10px;
-   
+    padding-left: 5px;
 }
 nav ul li a{
     color: #fff;
-    font-size: 1.4rem;
-    padding: 5px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+    
+    
 }
 nav ul li a:hover{
-    color: #395545;
+    
+    color: #32443a;
     transition: 300ms;
-    background-color: #54c283;
-    font-size: 1.5rem;
+    background-color: #3CD983;
+    font-size: 1.9rem;
     border-radius: 3px;
+    padding: 2px;
     
 }
 
 /* Aqui termina o header */
 main{
     max-width: 1080px;
+    background-color: #fff;
+    margin: auto;
+    padding: 5px 5px;
+}
+main section.fisrtSection{
+   
+
+    /* Por enquanto nada a declarar */
+}
+main section.fisrtSection div.block1 h2{
+    font-family: "idroid" ;
+    font-size: 2.8rem;
+    margin:10px 0px 0px 10px;
+    padding: 2px 2px;
+    color: #185A36;
+}
+main section.fisrtSection div.block1  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin:10px 0px 0px 10px;
+    
 }
