@@ -99,24 +99,77 @@ main{
     max-width: 1080px;
     background-color: #fff;
     margin: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin:20px 0px 0px 10px;
     padding: 5px 5px;
+    text-indent: 20px;
 }
-main section.fisrtSection{
-   
+main section{
+    width: 95%;
+}
 
-    /* Por enquanto nada a declarar */
-}
 main section.fisrtSection div.block1 h2{
     font-family: "idroid" ;
     font-size: 2.8rem;
-    margin:10px 0px 0px 10px;
-    padding: 2px 2px;
+    
+    padding: 7px 7px;
     color: #185A36;
 }
-main section.fisrtSection div.block1  p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    font-weight: normal;
-    margin:10px 0px 0px 10px;
-    
+main section.fisrtSection div.block2 h3{
+    font-family: "idroid" ;
+    font-size: 2rem;
+    margin:20px 0px 0px 10px;
+    padding: 2px 2px;
+    color: #185A36;
+    background-image: linear-gradient(to right, #80dba9, #fff );    
 }
+main section.fisrtSection div.block3{
+    width: 100%;
+    text-align: center;  
+}
+main section.fisrtSection p.firstVersion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin:20px 0px 0px 10px;
+    text-indent: 20px; 
+}
+main section.secondSection div.block4 h3{
+    font-family: "idroid" ;
+    font-size: 2rem;
+    margin:20px 0px 0px 10px;
+    padding: 2px 2px;
+    color: #185A36;
+    background-image: linear-gradient(to right, #80dba9, #fff );  
+}
+main section.secondSection div.block5 {
+    margin-top: 20px;
+}
+main section.secondSection div.block5 img{
+    width: 100%;
+}
+main section.secondSection div.block6 div.block-imgBugdroid{
+    text-align: center; 
+}
+main section.secondSection div.block6 div.block-imgBugdroid img{
+    width: 40%;   
+}
+main section.thirdSection div.video{
+    background-color: red;
+    text-align: center;
+    width: 100%;
+    padding: -5px -5px;
+}
+main section.thirdSection div.video iframe{
+    width: 90%;
+}
+
+
+
