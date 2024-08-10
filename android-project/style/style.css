@@ -46,13 +46,15 @@ header h1{
     text-shadow: 2px 2px #00000080;
     font-weight: 600;
     margin-top: 30px;
-    letter-spacing: -2px;    
+    letter-spacing: -2px;
+      
 }
 header p{
     width: 600px;
     margin: auto;
     font-size: 1.9rem;
     letter-spacing: 1px; 
+    text-align: justify;
 }
 header nav{
     margin-top: 35px;
@@ -147,18 +149,51 @@ main section.secondSection div.block5 img{
 main section.secondSection div.block6 div.block-imgBugdroid{
     text-align: center; 
 }
-main section.secondSection div.block6 div.block-imgBugdroid img{
-    width: 40%;   
-}
-main section.thirdSection div.video{
-    background-color: red;
+
+main div.video{
+    margin-top: 20px;
+    height: 450px;
+    background-color: #185A36;
     text-align: center;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div.video iframe{
     width: 100%;
-    padding: -5px -5px;
+    height: 100%;
+    border-radius: 2px;
+    
 }
-main section.thirdSection div.video iframe{
-    width: 90%;
+main .thirdSection article{
+    margin-top: 15px;
+    background-color: #C5EBD6;
 }
+main .thirdSection article.version h2{
+    font-size: 1.8rem;
+    background-color: #2FA866;
+    padding: 10px 10px;
+    color: #fff;   
+}
+main .thirdSection article.version p.paragraphArticle{
+    margin: 0px -10px;
+    font-size: 1.3rem;
+    margin-top: 10px;
+
+}
+
+main section.thirdSection article.version div.colun ul.lists{
+    font-size: 1.6rem;
+    column-count: 2;
+    
+    background-color: red;
+}
+main section.thirdSection article.version div.colun ul.lists li::before{
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+}
+
 
 
 
